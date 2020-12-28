@@ -47,10 +47,77 @@
              <button class="button-modal-open" data-modal-open>Заказать услугу</button>
     
         <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-         <button class="button-modal-close" data-modal-close><svg class="close"><use href="./images/symbol-defs-close.svg#icon-close"></use></svg></button></div>
-        </div>
+
            
+                <div class="modal">
+
+                    <button class="button-modal-close" data-modal-close><svg class="close" width="18x" heigth="18px"><use href="./images/symbol-defs-close.svg#icon-close">
+                    </use></svg>
+                    </button>
+            
+                    
+                    <form class="form js-speaker-form" action="#" autocomplete="off">
+                        <h2 class="title-form">Оставьте свои данные, мы вам перезвоним</h2>
+            
+                        <div class="form-field" >
+            
+                            <label class="form-label">Имя</label>
+                           <div class="form-input">
+                                <input type="text" name="name"  placeholder=" "/>
+                                    
+                                <svg class="icon-form">
+                                <use href="./images/symbol-defs5.svg#icon-name"></use>
+                                </svg>
+                            </div>
+
+            
+            
+                            
+                            <label class="form-label">Телефон</label>
+                            <div class="form-input">
+
+                                <input  type="tel" name="tel" placeholder=" " />
+            
+                                <svg class="icon-form" >
+                                    <use href="./images/symbol-defs5.svg#icon-tel"></use>
+                                </svg>
+                            </div>
+                            
+            
+                            <label class="form-label">Почта</label>
+                            <div  class="form-input">
+
+                                <input  type="email" name="mail" placeholder=" " />
+            
+                                <svg class="icon-form" >
+                                    <use href="./images/symbol-defs5.svg#icon-mail"></use>
+                                </svg>
+                            </div>
+
+
+                            <div class=" comment">
+                                            
+                             <label class="form-label">Комментарий</label>
+                             <textarea name="comment" rows="5" cols="45" placeholder="Введите текст"></textarea>
+                            </div>
+                     </div>
+            
+                    <!--Checkbox-->
+                        <label class="checkbox-label" > 
+                           <input class="checkbox-input" type="checkbox" name="text-checkbox" value="agree" />
+
+                           <span class="text-checkbox">Соглашаюсь с рассылкой и принимаю 
+
+                                <a href="">Условия договора</a>
+                            </span>
+                        </label>
+                     
+                        <button type="submit" class="big-button submit">Отправить</button>
+                    </form>
+                    
+                </div>
+            </div>
+                         
         </section> 
 
 <!-- особенности фирмы-->
@@ -177,6 +244,30 @@
                     
             
         </div>
+        <div class="footer-invoke">
+            <p class="invoke">Подпишитесь на рассылку</p>
+          
+      <form class="form-button"> 
+
+        <input class="form-footer"
+              type="text"
+              name="name"
+              placeholder="E-mail"
+              />
+    <button type="submit" class="big-button subscribe">Подписаться 
+              <svg width=24 height=24  class="icon-send">
+
+                  <use href="./images/icons/symbol-defs5.svg#icon-icon-send"></use>
+                             
+              </svg>
+          </button>
+                          
+       </form>
+                      
+          
+     </div>
+
+
         </div>
     
 
