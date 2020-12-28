@@ -557,15 +557,18 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .text-checkbox a{
+    position: relative;
     margin-left: 5px;
     color: var(--accent-color);
     
   }
   .conditions::after {
-        content: "";
+        content:"";
         position: absolute;
         width: 100%;
         height: 1px;
+        bottom: 0;
+        left: 0;
         background-color: var(--accent-color);
         border-radius: 2px;
        
